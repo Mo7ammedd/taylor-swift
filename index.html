@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.js"
+			integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+			crossorigin="anonymous"
+		></script>
+		<title>TAYLOR SWIFT API</title>
+
+		<style>
+			@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css);
+			@import url(https://fonts.googleapis.com/css?family=Pacifico&display=swap);
+			body {
+				font-weight: 600;
+			}
+			.container {
+				margin: auto 15%;
+			}
+
+			.content {
+				max-width: 700px;
+				color: #242424;
+				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+					Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+					"Helvetica Neue", sans-serif;
+			}
+
+			h1,
+			h2,
+			h3 {
+				font-weight: 600;
+				padding-bottom: 0.3em;
+				border-bottom: 1px solid #eaecef;
+			}
+			li {
+				padding-bottom: 0.5em;
+				font-weight: 600;
+			}
+			li > span {
+				text-decoration: underline;
+				color: black;
+				font-weight: 600;
+				/* color: rgb(67, 124, 230); */
+			}
+			a {
+				text-decoration: underline;
+				/* color: rgb(67, 124, 230); */
+				font-style: italic;
+				color: black;
+			}
+			.capitalize {
+				text-transform: capitalize;
+				/* text-align: center; */
+			}
+			#lyrics {
+				/* text-align: center; */
+			}
+			#fetch {
+				color: black;
+				font-weight: bold;
+				font-size: larger;
+				/* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+				/* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+				font-family: "Pacifico", cursive;
+				font-style: italic;
+			}
+			#quotes {
+				font-size: xx-large;
+			}
+			button {
+				border: none;
+				background: #fff;
+				cursor: pointer;
+			}
+			button > i,
+			#tweet-quote {
+				color: red;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="content">
+				<h1>
+					<img src="https://i.imgur.com/nVjpIKO.jpg" height="60px" />
+					TAYLOR SWIFT API
+				</h1>
+				<p>Open Source API for Taylor Swift lyrics</p>
+				<h2>API End-Points</h2>
+				<ul>
+					<li>
+						GET RANDOM LYRICS:
+						<a
+							href="javascript:void(0)"
+							onclick="window.open(`${window.location.href}get`)"
+							target="_blank"
+							rel="noopener"
+							rel="noreferrer"
+							><span class="current-url"></span>get</a
+						>
+					</li>
+					QUERY PARAMETERS:
+					<ul>
+						<li>
+							GET RANDOM LYRICS FROM AN ALBUM:
+							<a
+								href="javascript:void(0)"
+								onclick="window.open(`${window.location.href}get?album=evermore`)"
+								><span class="current-url"></span>get?album=&lt;album&gt;</a
+							>
+						</li>
+						<li>
+							GET RANDOM LYRICS FROM A SONG:
+							<a
+								href="javascript:void(0)"
+								onclick="window.open(`${window.location.href}get?song=lover`)"
+								><span class="current-url"></span>get?song=&lt;song&gt;</a
+							>
+						</li>
+					</ul>
+
+					<li>
+						GET ALL LYRICS MATCHING THE FILTERS:
+						<ul>
+							<li>
+								FILTER BY SONG: <a
+									href="javascript:void(0)"
+									onclick="window.open(`${window.location.href}get-all?song=lover`)"
+									><span class="current-url"></span>get-all?song=&lt;song&gt;</a
+								>
+							</li>
+							<li>
+								FILTER BY ALBUM: <a
+									href="javascript:void(0)"
+									onclick="window.open(`${window.location.href}get-all?album=reputation`)"
+									><span class="current-url"></span>get-all?album=&lt;album&gt;</a
+								>
+							</li>
+						</ul>
+					</li>
+				</ul>
+
+				<h2>
+					Random Taylor Quote
+					<button class="btn" id="new-quote">
+						<i class="fa fa-refresh"></i>
+					</button>
+					<button class="btn">
+						<a id="tweet-quote"><i class="fa fa-twitter"></i></a>
+					</button>
+				</h2>
+				<div id="fetch">
+					<span id="quotes">"</span>
+					<div id="lyrics">
+						I don't know what I want, so don't ask me / 'Cause I'm
+						still trying to figure it out
+					</div>
+					<span id="quotes">"</span>
+					<p>
+						<span class="capitalize" id="song"
+							>- a place in this world, </span
+						><span class="capitalize" id="album">Taylor Swift</span>
+					</p>
+				</div>
+
+				<p>
+					*Contribute lyrics/features at
+					<a
+						href="https://github.com/Mo7ammedd/taylor-swift"
+						>GitHub</a
+					>
+				</p>
+			</div>
+		</div>
+		<script>
+
+			var currentUrl = window.location.href;
+			$("span.current-url").html(currentUrl);
+			
+			function getQuotesJson() {
+				$.ajax({
+					method: "GET",
+					url: `${location.href}get`,
+					dataType: "json",
+					success: onSuccess,
+					error: onError,
+				});
+			}
+
+			function onSuccess(jsonReturn) {
+				console.log("success");
+				quoteData = jsonReturn;
+
+				
+
+				var newquote = quoteData.quote;
+				var song = quoteData.song;
+				var album = quoteData.album;
+				$("#lyrics").html(newquote);
+				$("#song").html("- " + song + ", ");
+				$("#album").html(album);
+
+				$("#tweet-quote").attr(
+					"href",
+					"http://www.twitter.com/intent/tweet?text=" +
+						newquote +
+						" -" +
+						song +
+						", " +
+						album
+				);
+			}
+			function onError(jsonReturn) {
+				console.log("error");
+			}
+			$("#new-quote").on("click", function () {
+				getQuotesJson();
+			});
+
+			$("document").ready(function () {
+				getQuotesJson();
+			});
+		</script>
+	</body>
+</html>
