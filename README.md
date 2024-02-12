@@ -1,6 +1,6 @@
 # Taylor Swift Api
 
-I couldn't believe that one of the best songwriters doesn't have a random lyrics generator api so I made one.
+I made random lyrics generator api for the best songwriters 
 
 ![](taylor.gif)
 
@@ -24,7 +24,6 @@ I couldn't believe that one of the best songwriters doesn't have a random lyrics
 * adding endpoints / making other suggestions
     * Raise an issue
 
-Inspired by  [kanye.rest](https://kanye.rest/)
 
 
 
