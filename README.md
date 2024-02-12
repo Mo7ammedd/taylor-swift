@@ -5,7 +5,7 @@ I made random lyrics generator api for the best songwriters
 ![](taylor.gif)
 
 ## Usage
-* To Get Random Taylor Swift lyrics :https://taylor-swift-lyrics-eaia.onrender.com/get
+* To Get Random Taylor Swift lyrics```:https://taylor-swift-lyrics-eaia.onrender.com/get```
 * To Get Random Taylor Swift lyrics from a specific album or song :
   * From an album : ```https://taylorswiftapi.onrender.com/get?album=<album>```
   * From a song : ```https://taylorswiftapi.onrender.com/get?song=<song>```
