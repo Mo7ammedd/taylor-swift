@@ -1,7 +1,7 @@
 const allQuotes = [
   {
     quote:
-      "I don't know what I want, so don't ask me / 'Cause I'm still trying to figure it out",
+      "I don't know what I want, so don't ask me , 'Cause I'm still trying to figure it out",
     song: "A Place In This World",
     album: "Taylor Swift",
   },
@@ -282,18 +282,18 @@ const allQuotes = [
   },
   {
     quote:
-      "Now you mail back my things and I walk home alone / But you keep my old scarf from that very first week, 'cause it reminds you of innocence and it smells like me.",
+      "Now you mail back my things and I walk home alone , But you keep my old scarf from that very first week, 'cause it reminds you of innocence and it smells like me.",
     song: "All Too Well",
     album: "Red",
   },
   {
-    quote: "Photo album on the counter / Your cheeks were turning red / You used to be a little kid in glasses in a twin-sized bed",
+    quote: "Photo album on the counter , Your cheeks were turning red , You used to be a little kid in glasses in a twin-sized bed",
     song: "All Too Well",
     album: "Red",
   },
   {
     quote:
-      "Stay, and I'll be loving you for quite some time / No one else is gonna love me when I get mad",
+      "Stay, and I'll be loving you for quite some time , No one else is gonna love me when I get mad",
     song: "Stay Stay Stay",
     album: "Red",
   },
@@ -349,19 +349,19 @@ const allQuotes = [
   },
   {
     quote:
-      "Your close friends always seem to know / When there's something really wrong",
+      "Your close friends always seem to know , When there's something really wrong",
     song: "The Moment I Knew",
     album: "Red",
   },
   {
     quote:
-      'You called me later / And said, "I\'m sorry I didn\'t make it" / And I said, "I\'m sorry, too"',
+      'You called me later , And said, "I\'m sorry I didn\'t make it" , And I said, "I\'m sorry, too"',
     song: "The Moment I Knew",
     album: "Red",
   },
   {
     quote:
-      "Loving him is like driving a new Maserati down a dead-end street / Faster than the wind, passionate as sin, ending so suddenly",
+      "Loving him is like driving a new Maserati down a dead-end street , Faster than the wind, passionate as sin, ending so suddenly",
     song: "Red",
     album: "Red",
   },
@@ -470,7 +470,7 @@ const allQuotes = [
   },
   {
     quote:
-      "Your kiss, my cheek / I watch you leave / Your smile, my ghost / I fall to my knees",
+      "Your kiss, my cheek , I watch you leave , Your smile, my ghost , I fall to my knees",
     song: "This Love",
     album: "1989",
   },
@@ -514,24 +514,24 @@ const allQuotes = [
   },
   {
     quote:
-      "So I punched a hole in the roof / Let the flood carry away all my pictures of you.",
+      "So I punched a hole in the roof , Let the flood carry away all my pictures of you.",
     song: "Clean",
     album: "1989",
   },
   {
     quote:
-      "When all you wanted / Was to be wanted / Wish you could go back / And tell yourself what you know now",
+      "When all you wanted , Was to be wanted , Wish you could go back , And tell yourself what you know now",
     song: "Fifteen",
     album: "Fearless",
   },
   {
     quote:
-      "32 and still growing up now / Who you are is not what you did / You're still an innocent",
+      "32 and still growing up now , Who you are is not what you did , You're still an innocent",
     song: "Innocent",
     album: "Speak Now",
   },
   {
-    quote: "We play dumb / But we know exactly what we're doing",
+    quote: "We play dumb , But we know exactly what we're doing",
     song: "New Romantics",
     album: "1989",
   },
@@ -547,7 +547,7 @@ const allQuotes = [
     album: "Lover",
   },
   {
-    quote: "I'm only seventeen / I don't know anything but I know I miss you",
+    quote: "I'm only seventeen , I don't know anything but I know I miss you",
     song: "Betty",
     album: "Folklore",
   },
@@ -569,13 +569,13 @@ const allQuotes = [
   },
   {
     quote:
-      "Untouchable, burning brighter than the sun / And when you're close I feel like coming undone",
+      "Untouchable, burning brighter than the sun , And when you're close I feel like coming undone",
     song: "Untouchable",
     album: "Fearless",
   },
   {
     quote:
-      "Barefoot in the kitchen / Sacred new beginnings / That became my religion, listen",
+      "Barefoot in the kitchen , Sacred new beginnings , That became my religion, listen",
     song: "Cornelia Street",
     album: "Lover",
   },
@@ -586,13 +586,13 @@ const allQuotes = [
   },
   {
     quote:
-      "Cold was the steel of my axe to grind for the boys who broke my heart / Now I send their babies presents",
+      "Cold was the steel of my axe to grind for the boys who broke my heart , Now I send their babies presents",
     song: "Invisible String",
     album: "Folklore",
   },
   {
     quote:
-      "He says he's so in love / He's finally got it right / I wonder if he knows he's all I think about at night",
+      "He says he's so in love , He's finally got it right , I wonder if he knows he's all I think about at night",
     song: "Teardrops On My Guitar",
     album: "Taylor Swift",
   },
@@ -602,31 +602,31 @@ const allQuotes = [
     album: "Red",
   },
   {
-    quote: "I once believed love would be burning red / But it's golden",
+    quote: "I once believed love would be burning red , But it's golden",
     song: "Daylight",
     album: "Lover",
   },
   {
     quote:
-      "I think I've seen this film before / And I didn't like the ending / You're not my homeland anymore / So what am I defending now?",
+      "I think I've seen this film before , And I didn't like the ending , You're not my homeland anymore , So what am I defending now?",
     song: "Exile",
     album: "Folklore",
   },
   {
     quote:
-      "He said the way my blue eyes shined / Put those Georgia stars to shame that night / I said, 'That's a lie'",
+      "He said the way my blue eyes shined , Put those Georgia stars to shame that night , I said, 'That's a lie'",
     song: "Tim McGraw",
     album: "Taylor Swift",
   },
   {
     quote:
-      "The monsters turned out to be just trees / When the sun came up you were looking at me",
+      "The monsters turned out to be just trees , When the sun came up you were looking at me",
     song: "Out Of The Woods",
     album: "1989",
   },
   {
     quote:
-      "The night you danced like you knew our lives would never be the same / You held your head like a hero / On a history book page / It was the end of a decade / But the start of an age",
+      "The night you danced like you knew our lives would never be the same , You held your head like a hero , On a history book page , It was the end of a decade , But the start of an age",
     song: "Long Live",
     album: "Speak Now",
   },
@@ -637,13 +637,13 @@ const allQuotes = [
   },
   {
     quote:
-      "They told me all of my cages were mental / So I got wasted like all my potential",
+      "They told me all of my cages were mental , So I got wasted like all my potential",
     song: "This Is Me Trying",
     album: "Folklore",
   },
   {
     quote:
-      "But she wears short skirts / I wear T-shirts / She's cheer captain / And I'm on the bleachers",
+      "But she wears short skirts , I wear T-shirts , She's cheer captain , And I'm on the bleachers",
     song: "You Belong With Me",
     album: "Fearless",
   },
@@ -654,19 +654,19 @@ const allQuotes = [
   },
   {
     quote:
-      'I\'m doing good, I\'m on some new shit / Been saying "yes" instead of "no" / I thought I saw you at the bus stop, I didn\'t though',
+      'I\'m doing good, I\'m on some new shit , Been saying "yes" instead of "no" , I thought I saw you at the bus stop, I didn\'t though',
     song: "The 1",
     album: "Folklore",
   },
   {
     quote:
-      "I guess you never know, never know / And if you wanted me, you really should've showed",
+      "I guess you never know, never know , And if you wanted me, you really should've showed",
     song: "The 1",
     album: "Folklore",
   },
   {
     quote:
-      "I persist and resist the temptation to ask you / If one thing had been different / Would everything be different today?",
+      "I persist and resist the temptation to ask you , If one thing had been different , Would everything be different today?",
     song: "The 1",
     album: "Folklore",
   },
@@ -676,13 +676,13 @@ const allQuotes = [
     album: "Folklore",
   },
   {
-    quote: "You drew stars around my scars / But now I'm bleedin'",
+    quote: "You drew stars around my scars , But now I'm bleedin'",
     song: "Cardigan",
     album: "Folklore",
   },
   {
     quote:
-      "I knew you'd miss me once the thrill expired / And you'd be standin' in my front porch light / And I knew you'd come back to me",
+      "I knew you'd miss me once the thrill expired , And you'd be standin' in my front porch light , And I knew you'd come back to me",
     song: "Cardigan",
     album: "Folklore",
   },
@@ -693,37 +693,37 @@ const allQuotes = [
   },
   {
     quote:
-      "We gather stones, never knowing what they'll mean / Some to throw, some to make a diamond ring",
+      "We gather stones, never knowing what they'll mean , Some to throw, some to make a diamond ring",
     song: "My Tears Ricochet",
     album: "Folklore",
   },
   {
     quote:
-      "You know I didn't want to have to haunt you / But what a ghostly scene",
+      "You know I didn't want to have to haunt you , But what a ghostly scene",
     song: "My Tears Ricochet",
     album: "Folklore",
   },
   {
     quote:
-      "Do you remember when I pulled up and said 'get in the car' / And then cancelled my plans just in case you called",
+      "Do you remember when I pulled up and said 'get in the car' , And then cancelled my plans just in case you called",
     song: "August",
     album: "Folklore",
   },
   {
     quote:
-      'To live for the hope of it all / Cancel plans just in case you\'d call / And say, "Meet me behind the mall"',
+      'To live for the hope of it all , Cancel plans just in case you\'d call , And say, "Meet me behind the mall"',
     song: "August",
     album: "Folklore",
   },
   {
     quote:
-      "Bold was the waitress on our three-year trip / Getting lunch down by the Lakes / She said I looked like an American singer",
+      "Bold was the waitress on our three-year trip , Getting lunch down by the Lakes , She said I looked like an American singer",
     song: "Invisible String",
     album: "Folklore",
   },
   {
     quote:
-      "Time, mystical time / Cutting me open, then healing me fine / Were there clues I didn't see?",
+      "Time, mystical time , Cutting me open, then healing me fine , Were there clues I didn't see?",
     song: "Invisible String",
     album: "Folklore",
   },
@@ -734,13 +734,13 @@ const allQuotes = [
   },
   {
     quote:
-      "I know where it all where wrong, your favorite song was playing from the far side of the gym / I was nowhere to be found I hate the crowds / Plus I saw you dance with him",
+      "I know where it all where wrong, your favorite song was playing from the far side of the gym , I was nowhere to be found I hate the crowds , Plus I saw you dance with him",
     song: "Betty",
     album: "Folklore",
   },
   {
     quote:
-      "Knew I was a robber first time that he saw me / Stealing hearts and running off and never sayin' sorry",
+      "Knew I was a robber first time that he saw me , Stealing hearts and running off and never sayin' sorry",
     song: "...Ready For It?",
     album: "Reputation",
   },
@@ -760,7 +760,7 @@ const allQuotes = [
     album: "Reputation",
   },
   {
-    quote: "My name is whatever you decide / And I'm just gonna call you mine",
+    quote: "My name is whatever you decide , And I'm just gonna call you mine",
     song: "Don't Blame Me",
     album: "Reputation",
   },
@@ -770,19 +770,19 @@ const allQuotes = [
     album: "Reputation",
   },
   {
-    quote: "Sometimes I wonder when you sleep / Are you ever dreaming of me?",
+    quote: "Sometimes I wonder when you sleep , Are you ever dreaming of me?",
     song: "Delicate",
     album: "Reputation",
   },
   {
     quote:
-      "The world goes on another day, another drama / But not for me, all I think about is karma.",
+      "The world goes on another day, another drama , But not for me, all I think about is karma.",
     song: "Look What You Made Me Do",
     album: "Reputation",
   },
   {
     quote:
-      "I've got a list of names and yours is in red, underlined / I check it once, then I check it twice",
+      "I've got a list of names and yours is in red, underlined , I check it once, then I check it twice",
     song: "Look What You Made Me Do",
     album: "Reputation",
   },
@@ -792,7 +792,7 @@ const allQuotes = [
     album: "Reputation",
   },
   {
-    quote: "You know I'm not a bad girl, but I / Do bad things with you",
+    quote: "You know I'm not a bad girl, but I , Do bad things with you",
     song: "So It Goes...",
     album: "Reputation",
   },
@@ -803,25 +803,25 @@ const allQuotes = [
   },
   {
     quote:
-      "Ocean blue eyes looking in mine / I feel like I might sink and drown and die",
+      "Ocean blue eyes looking in mine , I feel like I might sink and drown and die",
     song: "Gorgeous",
     album: "Reputation",
   },
   {
     quote:
-      "You make me so happy it turns back to sad / There's nothing I hate more than what I can't have / And you are so gorgeous it makes me so mad",
+      "You make me so happy it turns back to sad , There's nothing I hate more than what I can't have , And you are so gorgeous it makes me so mad",
     song: "Gorgeous",
     album: "Reputation",
   },
   {
     quote:
-      "We were jet-set, Bonnie and Clyde / Until I switched to the other side / It's no surprise I turned you in / 'Cause us traitors never win",
+      "We were jet-set, Bonnie and Clyde , Until I switched to the other side , It's no surprise I turned you in , 'Cause us traitors never win",
     song: "Getaway Car",
     album: "Reputation",
   },
   {
     quote:
-      "We met a few weeks ago / Now you try on callin' me \"Baby\" like tryin' on clothes",
+      "We met a few weeks ago , Now you try on callin' me \"Baby\" like tryin' on clothes",
     song: "King Of My Heart",
     album: "Reputation",
   },
@@ -831,7 +831,7 @@ const allQuotes = [
     album: "Reputation",
   },
   {
-    quote: "Is this the end of all the endings? / My broken bones are mending",
+    quote: "Is this the end of all the endings? , My broken bones are mending",
     song: "King Of My Heart",
     album: "Reputation",
   },
@@ -841,13 +841,13 @@ const allQuotes = [
     album: "Reputation",
   },
   {
-    quote: "Say that we got it / I'm a mess, but I'm the mess that you wanted",
+    quote: "Say that we got it , I'm a mess, but I'm the mess that you wanted",
     song: "Dancing With Our Hands Tied",
     album: "Reputation",
   },
   {
     quote:
-      "But you stabbed me in the back while shaking my hand / And therein lies the issue / Friends don't try to trick you / Get you on the phone and mind-twist you / So I took an axe to a mended fence",
+      "But you stabbed me in the back while shaking my hand , And therein lies the issue , Friends don't try to trick you , Get you on the phone and mind-twist you , So I took an axe to a mended fence",
     song: "This Is Why We Can't Have Nice Things",
     album: "Reputation",
   },
@@ -886,7 +886,7 @@ const allQuotes = [
   },
   {
     quote:
-      "Devils roll the dice, angels roll their eyes / What doesn't kill me makes me want you more",
+      "Devils roll the dice, angels roll their eyes , What doesn't kill me makes me want you more",
     song: "Cruel Summer",
     album: "Lover",
   },
@@ -897,7 +897,7 @@ const allQuotes = [
   },
   {
     quote:
-      "I'm drunk in the back of the car / And I cried like a baby coming home from the bar / Said, \"I'm fine,\" but it wasn't true",
+      "I'm drunk in the back of the car , And I cried like a baby coming home from the bar , Said, \"I'm fine,\" but it wasn't true",
     song: "Cruel Summer",
     album: "Lover",
   },
@@ -964,13 +964,13 @@ const allQuotes = [
   },
   {
     quote:
-      "I pinned your hands behind your back / Thought I had reason to attack, but no",
+      "I pinned your hands behind your back , Thought I had reason to attack, but no",
     song: "Afterglow",
     album: "Lover",
   },
   {
     quote:
-      "Fighting with a true love is boxing with no gloves / Chemistry 'til it blows up, 'til there's no us",
+      "Fighting with a true love is boxing with no gloves , Chemistry 'til it blows up, 'til there's no us",
     song: "Afterglow",
     album: "Lover",
   },
@@ -997,19 +997,19 @@ const allQuotes = [
   },
   {
     quote:
-      "Wait for the signal, and I'll meet you after dark / Show me the places where the others gave you scars",
+      "Wait for the signal, and I'll meet you after dark , Show me the places where the others gave you scars",
     song: "Willow",
     album: "Evermore",
   },
   {
     quote:
-      "Bustling crowds or silent sleepers / You're not sure which is worse",
+      "Bustling crowds or silent sleepers , You're not sure which is worse",
     song: "Champagne Problems",
     album: "Evermore",
   },
   {
     quote:
-      "You told your family for a reason / You couldn't keep it in / Your sister splashed out on the bottle",
+      "You told your family for a reason , You couldn't keep it in , Your sister splashed out on the bottle",
     song: "Champagne Problems",
     album: "Evermore",
   },
@@ -1021,7 +1021,7 @@ const allQuotes = [
   },
   {
     quote:
-      "One for the money, two for the show / I never was ready so I watch you go",
+      "One for the money, two for the show , I never was ready so I watch you go",
     song: "Champagne Problems",
     album: "Evermore",
   },
@@ -1044,7 +1044,7 @@ const allQuotes = [
   },
   {
     quote:
-      "My mind turns your life into folklore / I can't dare to dream about you anymore",
+      "My mind turns your life into folklore , I can't dare to dream about you anymore",
     song: "Gold Rush",
     album: "Evermore",
   },
@@ -1068,7 +1068,7 @@ const allQuotes = [
   },
   {
     quote:
-      "I made you my temple, my mural, my sky. Now I'm begging for footnotes in the story of your life / Drawing hearts in the byline always taking up too much space or time",
+      "I made you my temple, my mural, my sky. Now I'm begging for footnotes in the story of your life , Drawing hearts in the byline always taking up too much space or time",
     song: "Tolerate It",
     album: "Evermore",
   },
@@ -1091,19 +1091,19 @@ const allQuotes = [
   },
   {
     quote:
-      "So yeah, it's a fire, it's a goddamn blaze in the dark and you've started it / So yeah, it's a war, it's the goddamn fight of my life and you started it",
+      "So yeah, it's a fire, it's a goddamn blaze in the dark and you've started it , So yeah, it's a war, it's the goddamn fight of my life and you started it",
     song: "Ivy",
     album: "Evermore",
   },
   {
     quote:
-      "Did you ever hear about the girl who got frozen? / Time went on for everybody else, she won't know it / She's still twenty-three inside her fantasy",
+      "Did you ever hear about the girl who got frozen? , Time went on for everybody else, she won't know it , She's still twenty-three inside her fantasy",
     song: "Right Where You Left Me",
     album: "Evermore",
   },
   {
     quote:
-      "Breaking down and coming undone / It's a rollercoaster kind of rush",
+      "Breaking down and coming undone , It's a rollercoaster kind of rush",
     song: "The Way I Loved You",
     album: "Fearless",
   },
@@ -1115,37 +1115,37 @@ const allQuotes = [
   },
   {
     quote:
-      "Well, I like the way your hair falls in your face / You got the keys to me / I love each freckle on your face",
+      "Well, I like the way your hair falls in your face , You got the keys to me , I love each freckle on your face",
     song: "Jump Then Fall",
     album: "Fearless",
   },
   {
     quote:
-      "With your face and the beautiful eyes / And the conversation with the little white lies / And the faded picture of a beautiful night",
+      "With your face and the beautiful eyes , And the conversation with the little white lies , And the faded picture of a beautiful night",
     song: "The Other Side Of The Door",
     album: "Fearless",
   },
   {
     quote:
-      "Never be so kind / You forget to be clever / Never be so clever / You forget to be kind",
+      "Never be so kind , You forget to be clever , Never be so clever , You forget to be kind",
     song: "Marjorie",
     album: "Evermore",
   },
   {
     quote:
-      "Sometimes I feel like everybody is a sexy baby / And I'm the monster on the hill",
+      "Sometimes I feel like everybody is a sexy baby , And I'm the monster on the hill",
     song: "Anti-Hero",
     album: "Midnights",
   },
   {
     quote:
-      "It's me, hi, I'm the problem, it's me / At tea time, everybody agrees",
+      "It's me, hi, I'm the problem, it's me , At tea time, everybody agrees",
     song: "Anti-Hero",
     album: "Midnights",
   },
   {
     quote:
-      "Did you hear my covert narcissism I disguise as altruism / Like some kind of congressman?",
+      "Did you hear my covert narcissism I disguise as altruism , Like some kind of congressman?",
     song: "Anti-Hero",
     album: "Midnights",
   },
@@ -1155,19 +1155,19 @@ const allQuotes = [
     album: "Midnights",
   },
   {
-    quote: "All they keep asking me / Is if I'm gonna be your bride",
+    quote: "All they keep asking me , Is if I'm gonna be your bride",
     song: "Lavender Haze",
     album: "Midnights",
   },
   {
     quote:
-      "And I lost you / The one I was dancing with / In New York, no shoes",
+      "And I lost you , The one I was dancing with , In New York, no shoes",
     song: "Maroon",
     album: "Midnights",
   },
   {
     quote:
-      "The mark they saw on my collarbone / The rust that grew between telephones / The lips I used to call home",
+      "The mark they saw on my collarbone , The rust that grew between telephones , The lips I used to call home",
     song: "Maroon",
     album: "Midnights",
   },
@@ -1177,25 +1177,25 @@ const allQuotes = [
     album: "Midnights",
   },
   {
-    quote: "Flying in a dream / stars by the pocketful",
+    quote: "Flying in a dream , stars by the pocketful",
     song: "Snow On The Beach",
     album: "Midnights",
   },
   {
     quote:
-      "I've never seen someone lit from within / Blurring out my periphery",
+      "I've never seen someone lit from within , Blurring out my periphery",
     song: "Snow On The Beach",
     album: "Midnights",
   },
   {
     quote:
-      "From sprinkler splashes to fireplace ashes / I waited ages to see you there / I search the party of better bodies / Just to learn that you never cared",
+      "From sprinkler splashes to fireplace ashes , I waited ages to see you there , I search the party of better bodies , Just to learn that you never cared",
     song: "You're On Your Own, Kid",
     album: "Midnights",
   },
   {
     quote:
-      "I gave my blood, sweat, and tears for this / I hosted parties and starved my body / Like I'd be saved by a perfect kiss",
+      "I gave my blood, sweat, and tears for this , I hosted parties and starved my body , Like I'd be saved by a perfect kiss",
     song: "You're On Your Own, Kid",
     album: "Midnights",
   },
@@ -1205,7 +1205,7 @@ const allQuotes = [
     album: "Midnights",
   },
   {
-    quote: "A slow-motion, love potion / jumping off things in the ocean",
+    quote: "A slow-motion, love potion , jumping off things in the ocean",
     song: "Midnight Rain",
     album: "Midnights",
   },
@@ -1230,7 +1230,7 @@ const allQuotes = [
     album: "Midnights",
   },
   {
-    quote: "When I walk in the room / I can still make the whole place shimmer",
+    quote: "When I walk in the room , I can still make the whole place shimmer",
     song: "Bejeweled",
     album: "Midnights",
   },
@@ -1240,23 +1240,23 @@ const allQuotes = [
     album: "Midnights",
   },
   {
-    quote: "Never trust it if it rises fast / It can't last",
+    quote: "Never trust it if it rises fast , It can't last",
     song: "Labyrinth",
     album: "Midnights",
   },
   {
     quote:
-      "I thought the plane was goin' down / How'd you turn it right around?",
+      "I thought the plane was goin' down , How'd you turn it right around?",
     song: "Labyrinth",
     album: "Midnights",
   },
   {
-    quote: "A relaxing thought / Aren't you envious that for you it's not?",
+    quote: "A relaxing thought , Aren't you envious that for you it's not?",
     song: "Karma",
     album: "Midnights",
   },
   {
-    quote: "Flexing like a goddamn acrobat / Me and karma vibe like that",
+    quote: "Flexing like a goddamn acrobat , Me and karma vibe like that",
     song: "Karma",
     album: "Midnights",
   },
@@ -1266,42 +1266,42 @@ const allQuotes = [
     album: "Midnights",
   },
   {
-    quote: "They said the end is comin' / Everyone's up to somethin'",
+    quote: "They said the end is comin' , Everyone's up to somethin'",
     song: "Sweet Nothing",
     album: "Midnights",
   },
   {
     quote:
-      "I spy with my little tired eye / Tiny as a firefly / A pebble that we picked up last July",
+      "I spy with my little tired eye , Tiny as a firefly , A pebble that we picked up last July",
     song: "Sweet Nothing",
     album: "Midnights",
   },
   {
     quote:
-      "I laid the groundwork, and then / Just like clockwork / The dominoes cascaded in a line",
+      "I laid the groundwork, and then , Just like clockwork , The dominoes cascaded in a line",
     song: "Mastermind",
     album: "Midnights",
   },
   {
     quote:
-      "What if I told you none of it was accidental? / And the first night that you saw me / Nothing was gonna stop me",
+      "What if I told you none of it was accidental? , And the first night that you saw me , Nothing was gonna stop me",
     song: "Mastermind",
     album: "Midnights",
   },
   {
-    quote: "Uh-huh, we're burned for better / I vowed I would always be yours",
+    quote: "Uh-huh, we're burned for better , I vowed I would always be yours",
     song: "The Great War",
     album: "Midnights",
   },
   {
     quote:
-      "You said I have to trust more freely / But diesel is desire, you were playing with fire",
+      "You said I have to trust more freely , But diesel is desire, you were playing with fire",
     song: "The Great War",
     album: "Midnights",
   },
   {
     quote:
-      "I'm never gonna meet / What could've been would've been / What should've been you",
+      "I'm never gonna meet , What could've been would've been , What should've been you",
     song: "Bigger Than The Whole Sky",
     album: "Midnights",
   },
@@ -1316,25 +1316,25 @@ const allQuotes = [
     album: "Midnights",
   },
   {
-    quote: "Confess my truth / In swooping, sloping, cursive letters",
+    quote: "Confess my truth , In swooping, sloping, cursive letters",
     song: "Paris",
     album: "Midnights",
   },
   {
     quote:
-      "Put on your records and regret me / I bent the truth too far tonight",
+      "Put on your records and regret me , I bent the truth too far tonight",
     song: "High Infidelity",
     album: "Midnights",
   },
   {
     quote:
-      "Do you really wanna know where I was April 29th? / Do I really have to chart the constellations in his eyes?",
+      "Do you really wanna know where I was April 29th? , Do I really have to chart the constellations in his eyes?",
     song: "High Infidelity",
     album: "Midnights",
   },
   {
     quote:
-      "Lock broken, slur spoken / Wound open, game token / I didn't know you were keeping count",
+      "Lock broken, slur spoken , Wound open, game token , I didn't know you were keeping count",
     song: "High Infidelity",
     album: "Midnights",
   },
@@ -1345,7 +1345,7 @@ const allQuotes = [
   },
   {
     quote:
-      "I would've stayed / On my knees / And I damn sure never would've danced with the devil",
+      "I would've stayed , On my knees , And I damn sure never would've danced with the devil",
     song: "Would've, Could've, Should've",
     album: "Midnights",
   },
@@ -1356,7 +1356,7 @@ const allQuotes = [
   },
   {
     quote:
-      "Desert all your past lives / And if you don't recognize yourself / That means you did it right",
+      "Desert all your past lives , And if you don't recognize yourself , That means you did it right",
     song: "Dear Reader",
     album: "Midnights",
   },
