@@ -16,7 +16,7 @@ I made random lyrics generator api for the best songwriter
 ## Contribution
 
 * Contribute your favourite taylor lyrics / quotes
-  * Add the lyrics / quotes to `taylorquotes.db`
+  * Add the lyrics / quotes to `taylorquotes.js`
   * While adding a quote, keep album and song fields as none
   * make a pull request
   * no repetitions
