@@ -1139,141 +1139,141 @@ const allQuotes = [
   },
   {
     quote:
-      "It's mehiI'm the problemit's me At tea timeeverybody agrees",
-    song: "Anti-Hero",
+      "I love you, it's ruining my life",
+    song: "Fortnight",
+    album: "THE TORTURED POETS DEPARTMENT",
+  },
+  {
+    quote:
+      "My husband is cheating, I wanna kill him",
+      song: "Fortnight",
+      album: "THE TORTURED POETS DEPARTMENT",
+  },
+  {
+      quote: "Thought of callin' ya, but you won't pick up",
+      song: "Fortnight",
+      album: "THE TORTURED POETS DEPARTMENT",
+  },
+  {
+      quote: "Who else decodes you?",
+      song: "The Tortured Poets Department",
+      album: "THE TORTURED POETS DEPARTMENT",
+  },
+  {
+    quote:
+          "And who's gonna hold you like me? And who's gonna know you, if not me?",
+      song: "The Tortured Poets Department",
+      album: "THE TORTURED POETS DEPARTMENT",
+  },
+  {
+    quote:
+      "We declared Charlie Puth should be a bigger artist",
+      song: "The Tortured Poets Department",
+      album: "THE TORTURED POETS DEPARTMENT",
+  },
+  {
+      quote: "And that's the closest I've come to my heart exploding",
+      song: "The Tortured Poets Department",
+      album: "THE TORTURED POETS DEPARTMENT",
+  },
+  {
+      quote: "But you should've seen him when he first got me",
+      song: "My Boy Only Breaks His Favorite Toys",
+      album: "THE TORTURED POETS DEPARTMENT",
+  },
+  {
+    quote:
+      "My boy only breaks his favorite toys",
+      song: "My Boy Only Breaks His Favorite Toys",
+      album: "THE TORTURED POETS DEPARTMENT",
+  },
+  {
+    quote:
+      "Once I fix me He's gonna miss me",
+      song: "My Boy Only Breaks His Favorite Toys",
+      album: "THE TORTURED POETS DEPARTMENT",
+  },
+  {
+    quote:
+          "'Cause he took me out of my box Stole my tortured heart Left all these broken parts Told me I'm better off But I'm not",
+      song: "My Boy Only Breaks His Favorite Toys",
+      album: "THE TORTURED POETS DEPARTMENT",
+  },
+  {
+      quote: "For a moment, I knew cosmic love",
+      song: "Down Bad",
+      album: "THE TORTURED POETS DEPARTMENT",
+  },
+  {
+      quote: "Now I'm down bad, cryin' at the gym",
+      song: "Down Bad",
+      album: "THE TORTURED POETS DEPARTMENT",
+  },
+  {
+      quote: "Everything comes out teenage petulance Fuck it if I can't have him I might just die, it would make no difference",
+      song: "Down Bad",
+      album: "THE TORTURED POETS DEPARTMENT",
+  },
+  {
+      quote: "Starin' at the sky, come back and pick me up Fuck it if I can't have us I might just not get up, I might stay",
+      song: "Down Bad",
+      album: "THE TORTURED POETS DEPARTMENT",
+  },
+  {
+      quote: "How dare you think it's romantic Leaving me safe and stranded",
+      song: "Down Bad",
+      album: "THE TORTURED POETS DEPARTMENT",
+  },
+  {
+      quote: "Pulled him in tighter each time he was driftin' away",
+      song: "So Long, London",
+      album: "THE TORTURED POETS DEPARTMENT",
+  },
+  {
+      quote: "Thinkin', How much sad did you think I hadDid you think I had in me ?",
+      song: "So Long, London",
+      album: "THE TORTURED POETS DEPARTMENT",
+  },
+  {
+      quote: "I stoppеd CPR, after all, it's no use The spirit was gonе, we would never come toe",
+      song: "So Long, London",
+      album: "THE TORTURED POETS DEPARTMENT",
+  },
+  {
+      quote: "And I'm pissed off you let me give you all that youth for free",
+      song: "So Long, London",
+      album: "THE TORTURED POETS DEPARTMENT",
+  },
+  {
+    quote:
+            "And you say I abandoned the ship But I was going down with it My white-knuckle dying grip Holding tight to your quiet resentment And my friends said it isn't right to be scared Every day of a love affair Every breath feels like rarest air When you're not sure if he wants to be there",
+      song: "So Long, London",
+      album: "THE TORTURED POETS DEPARTMENT",
+  },
+  {
+      quote: "I know he's crazy, but he's the one I want",
+      song: "But Daddy I Love Him",
+      album: "THE TORTURED POETS DEPARTMENT",
+  },
+  {
+      quote: "Growin' up precocious sometimes means Not growin' up at all",
+      song: "But Daddy I Love Him",
+      album: "THE TORTURED POETS DEPARTMENT",
+  },
+  {
+      quote: "I'll tell you something right now I'd rather burn my whole life down Than listen to one more second of all this bitchin' and moanin' I'll tell you something 'bout my good name It's mine alone to disgrace I don't cater to all these vipers dressed in empath's clothing",
+      song: "But Daddy I Love Him",
+    album: "The Tortured Poets Department",
+  },
+  {
+      quote: "You ain't gotta pray for me",
+      song: "But Daddy I Love Him",
     album: "The Tortured Poets Department",
   },
   {
     quote:
-      "Did you hear my covert narcissism I disguise as altruism Like some kind of congressman?",
-    song: "Anti-Hero",
-    album: "The Tortured Poets Department",
-  },
-  {
-    quote: "I'm damned if I do give a damn what people say",
-    song: "Lavender Haze",
-    album: "The Tortured Poets Department",
-  },
-  {
-    quote: "All they keep asking me Is if I'm gonna be your bride",
-    song: "Lavender Haze",
-    album: "The Tortured Poets Department",
-  },
-  {
-    quote:
-      "And I lost you The one I was dancing with In New Yorkno shoes",
-    song: "Maroon",
-    album: "The Tortured Poets Department",
-  },
-  {
-    quote:
-      "The mark they saw on my collarbone The rust that grew between telephones The lips I used to call home",
-    song: "Maroon",
-    album: "The Tortured Poets Department",
-  },
-  {
-    quote: "How the hell did we lose sight of us again?",
-    song: "Maroon",
-    album: "The Tortured Poets Department",
-  },
-  {
-    quote: "Flying in a dream stars by the pocketful",
-    song: "Snow On The Beach",
-    album: "The Tortured Poets Department",
-  },
-  {
-    quote:
-      "I've never seen someone lit from within Blurring out my periphery",
-    song: "Snow On The Beach",
-    album: "The Tortured Poets Department",
-  },
-  {
-    quote:
-      "From sprinkler splashes to fireplace ashes I waited ages to see you there I search the party of better bodies Just to learn that you never cared",
-    song: "You're On Your OwnKid",
-    album: "The Tortured Poets Department",
-  },
-  {
-    quote:
-      "I gave my bloodsweatand tears for this I hosted parties and starved my body Like I'd be saved by a perfect kiss",
-    song: "You're On Your OwnKid",
-    album: "The Tortured Poets Department",
-  },
-  {
-    quote: "He wanted it comfortableI wanted that pain",
-    song: "Midnight Rain",
-    album: "The Tortured Poets Department",
-  },
-  {
-    quote: "A slow-motionlove potion jumping off things in the ocean",
-    song: "Midnight Rain",
-    album: "The Tortured Poets Department",
-  },
-  {
-    quote: "Did you ever have someone kiss you in a crowded room",
-    song: "Question...?",
-    album: "The Tortured Poets Department",
-  },
-  {
-    quote: "And what's that that I heard? That you're still with her?",
-    song: "Question...?",
-    album: "The Tortured Poets Department",
-  },
-  {
-    quote: "Draw the cat eye sharp enough to kill a man",
-    song: "Vigilante Shit",
-    album: "The Tortured Poets Department",
-  },
-  {
-    quote: "I don't start shitbut I can tell you how it ends",
-    song: "Vigilante Shit",
-    album: "The Tortured Poets Department",
-  },
-  {
-    quote: "When I walk in the room I can still make the whole place shimmer",
-    song: "Bejeweled",
-    album: "The Tortured Poets Department",
-  },
-  {
-    quote: "Did all the extra creditthen got graded on a curve",
-    song: "Bejeweled",
-    album: "The Tortured Poets Department",
-  },
-  {
-    quote: "Never trust it if it rises fast It can't last",
-    song: "Labyrinth",
-    album: "The Tortured Poets Department",
-  },
-  {
-    quote:
-      "I thought the plane was goin' down How'd you turn it right around?",
-    song: "Labyrinth",
-    album: "The Tortured Poets Department",
-  },
-  {
-    quote: "A relaxing thought Aren't you envious that for you it's not?",
-    song: "Karma",
-    album: "The Tortured Poets Department",
-  },
-  {
-    quote: "Flexing like a goddamn acrobat Me and karma vibe like that",
-    song: "Karma",
-    album: "The Tortured Poets Department",
-  },
-  {
-    quote: "You're talking shit for the hell of it",
-    song: "Karma",
-    album: "The Tortured Poets Department",
-  },
-  {
-    quote: "They said the end is comin' Everyone's up to somethin'",
-    song: "Sweet Nothing",
-    album: "The Tortured Poets Department",
-  },
-  {
-    quote:
-      "I spy with my little tired eye Tiny as a firefly A pebble that we picked up last July",
-    song: "Sweet Nothing",
+      "Time, doesn't it give some perspective?",
+      song: "But Daddy I Love Him",
     album: "The Tortured Poets Department",
   },
   {
