@@ -27,7 +27,6 @@ function setHeaderInformation(res) {
   );
 }
 
-// Filter allQuotes by the request parameters (if any)
 function getFilteredQuotes(req) {
   if (req.query?.song) {
     return allQuotes.filter(

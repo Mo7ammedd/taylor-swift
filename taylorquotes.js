@@ -1141,229 +1141,434 @@ const allQuotes = [
     quote:
       "It's mehiI'm the problemit's me At tea timeeverybody agrees",
     song: "Anti-Hero",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote:
       "Did you hear my covert narcissism I disguise as altruism Like some kind of congressman?",
     song: "Anti-Hero",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote: "I'm damned if I do give a damn what people say",
     song: "Lavender Haze",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote: "All they keep asking me Is if I'm gonna be your bride",
     song: "Lavender Haze",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote:
       "And I lost you The one I was dancing with In New Yorkno shoes",
     song: "Maroon",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote:
       "The mark they saw on my collarbone The rust that grew between telephones The lips I used to call home",
     song: "Maroon",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote: "How the hell did we lose sight of us again?",
     song: "Maroon",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote: "Flying in a dream stars by the pocketful",
     song: "Snow On The Beach",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote:
       "I've never seen someone lit from within Blurring out my periphery",
     song: "Snow On The Beach",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote:
       "From sprinkler splashes to fireplace ashes I waited ages to see you there I search the party of better bodies Just to learn that you never cared",
     song: "You're On Your OwnKid",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote:
       "I gave my bloodsweatand tears for this I hosted parties and starved my body Like I'd be saved by a perfect kiss",
     song: "You're On Your OwnKid",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote: "He wanted it comfortableI wanted that pain",
     song: "Midnight Rain",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote: "A slow-motionlove potion jumping off things in the ocean",
     song: "Midnight Rain",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote: "Did you ever have someone kiss you in a crowded room",
     song: "Question...?",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote: "And what's that that I heard? That you're still with her?",
     song: "Question...?",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote: "Draw the cat eye sharp enough to kill a man",
     song: "Vigilante Shit",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote: "I don't start shitbut I can tell you how it ends",
     song: "Vigilante Shit",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote: "When I walk in the room I can still make the whole place shimmer",
     song: "Bejeweled",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote: "Did all the extra creditthen got graded on a curve",
     song: "Bejeweled",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote: "Never trust it if it rises fast It can't last",
     song: "Labyrinth",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote:
       "I thought the plane was goin' down How'd you turn it right around?",
     song: "Labyrinth",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote: "A relaxing thought Aren't you envious that for you it's not?",
     song: "Karma",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote: "Flexing like a goddamn acrobat Me and karma vibe like that",
     song: "Karma",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote: "You're talking shit for the hell of it",
     song: "Karma",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote: "They said the end is comin' Everyone's up to somethin'",
     song: "Sweet Nothing",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote:
       "I spy with my little tired eye Tiny as a firefly A pebble that we picked up last July",
     song: "Sweet Nothing",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote:
       "I laid the groundworkand then Just like clockwork The dominoes cascaded in a line",
     song: "Mastermind",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote:
       "What if I told you none of it was accidental? And the first night that you saw me Nothing was gonna stop me",
     song: "Mastermind",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote: "Uh-huhwe're burned for better I vowed I would always be yours",
     song: "The Great War",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote:
       "You said I have to trust more freely But diesel is desireyou were playing with fire",
     song: "The Great War",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote:
       "I'm never gonna meet What could've been would've been What should've been you",
     song: "Bigger Than The Whole Sky",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote: "You were more than just a short time",
     song: "Bigger Than The Whole Sky",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote: "I'm so in love that I might stop breathing",
     song: "Paris",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote: "Confess my truth In swoopingslopingcursive letters",
     song: "Paris",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote:
       "Put on your records and regret me I bent the truth too far tonight",
     song: "High Infidelity",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote:
       "Do you really wanna know where I was April 29th? Do I really have to chart the constellations in his eyes?",
     song: "High Infidelity",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote:
       "Lock brokenslur spoken Wound opengame token I didn't know you were keeping count",
     song: "High Infidelity",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote: "And I'm not even sorrynights are so starry",
     song: "Glitch",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote:
       "I would've stayed On my knees And I damn sure never would've danced with the devil",
     song: "Would'veCould'veShould've",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote: "Never take advice from someone who's falling apart",
     song: "Dear Reader",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote:
       "Desert all your past lives And if you don't recognize yourself That means you did it right",
     song: "Dear Reader",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
   },
   {
     quote: "They say that if it's rightyou know",
     song: "Hits Differents",
-    album: "Midnights",
+    album: "The Tortured Poets Department",
+  },
+  {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
+  }, {
+    quote: "They say that if it's rightyou know",
+    song: "Hits Differents",
+    album: "The Tortured Poets Department",
   },
 ];
 
