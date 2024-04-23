@@ -60,7 +60,10 @@ app.get("/get-all", (req, res) => {
   setHeaderInformation(res);
   res.send(getFilteredQuotes(req));
 });
-
+app.get("/get-all-quotes", (req, res) => {
+  setHeaderInformation(res);
+  res.json(allQuotes); // Send all quotes as a JSON response
+});
 app.listen(process.env.PORT || port, function () {
   console.log(
     `Express server listening on port ${this.address().port} in ${
