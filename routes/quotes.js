@@ -17,7 +17,7 @@ app.post('/', async (req, res, next) => {
 
 // get random lyrics
 app.get('/', async (req, res) => {
-  const qoute = await Qoute.sample(1);
+  const qoute = await Qoute.aggregate().sample(1);
   res.send(qoute);
 });
 
