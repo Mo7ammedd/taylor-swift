@@ -1,69 +1,30 @@
-const express = require("express");
+// express app
+const express = require('express');
 const app = express();
-const port = 3000;
-const path = require("path");
-const { allQuotes } = require("./taylorquotes");
-app.use(express.static("views"));
+const port = 5000;
 
-String.prototype.toTitleCase = function () {
-  return this.replace(/\w\S*/g, (w) =>
-    w.replace(/^\w/, (c) => c.toUpperCase())
-  );
-};
+// .env access
+const dotenv = require('dotenv');
+dotenv.config({ path: '.env' });
 
-function getRandomElementFrom(arr) {
-  return arr[Math.floor(Math.random() * arr.length)];
-}
+// Database connection
+const dbConnection = require('./config/db');
+dbConnection();
 
-function setHeaderInformation(res) {
-  res.setHeader("Access-Control-Allow-Origin", "*");
-  res.setHeader(
-    "Access-Control-Allow-Methods",
-    "GET, POST, OPTIONS, PUT, PATCH, DELETE"
-  );
-  res.setHeader(
-    "Access-Control-Allow-Headers",
-    "X-Requested-With,content-type"
-  );
-}
+// JSON parse
+app.use(express.json());
+app.use(express.static('views'));
 
-function getFilteredQuotes(req) {
-  if (req.query?.song) {
-    return allQuotes.filter(
-      (lyrics) => lyrics.song === req.query.song.toTitleCase()
-    );
-  }
+// Routes
+const quotesRouter = require('./routes/quotes');
 
-  if (req.query?.album) {
-    return allQuotes.filter(
-      (lyrics) => lyrics.album === req.query.album.toTitleCase()
-    );
-  }
-
-  // No request parameters (filters), so use default value of allQuotes
-  return allQuotes;
-}
-
-// index
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname + "/index.html"));
+// Mount Routes
+app.use('/api/v1/quote', quotesRouter);
+app.all('*', (req, res, next) => {
+  res.status(404).json(`Can't find ${req.originalUrl} on this server!`);
 });
 
-// get random lyrics
-app.get("/get", (req, res) => {
-  setHeaderInformation(res);
-  res.send(getRandomElementFrom(getFilteredQuotes(req)));
-});
-
-// get all lyrics that match with the filters
-app.get("/get-all", (req, res) => {
-  setHeaderInformation(res);
-  res.send(getFilteredQuotes(req));
-});
-app.get("/get-all-quotes", (req, res) => {
-  setHeaderInformation(res);
-  res.json(allQuotes); // Send all quotes as a JSON response
-});
+// Server
 app.listen(process.env.PORT || port, function () {
   console.log(
     `Express server listening on port ${this.address().port} in ${
