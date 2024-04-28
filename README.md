@@ -8,13 +8,13 @@ I couldn't believe that one of the best songwriters doesn't have a random lyrics
 ![](taylor.gif)
 
 ## Usage
-* To Get Random Taylor Swift lyrics```:https://taylor-swift-lyrics-eaia.onrender.com/get```
+* To Get Random Taylor Swift lyrics```:https://taylor-swift-1.onrender.com/api/v1/quote```
 * To Get Random Taylor Swift lyrics from a specific album or song :
-  * From an album : ```https://taylorswiftapi.onrender.com/get?album=<album>```
-  * From a song : ```https://taylorswiftapi.onrender.com/get?song=<song>```
-* To Get All Taylor Swift lyrics from a specific album or song :
-  * From an album : ```https://taylorswiftapi.onrender.com/get-all?song=<song>```
-  * From a song : ```https://taylorswiftapi.onrender.com/get-all?album=<album>```
+  * From an album : ```https://taylor-swift-1.onrender.com/api/v1/quote/:song```
+  * From a song : ```https://taylor-swift-1.onrender.com/api/v1/quote/:song```
+* To Get All Taylor Swift lyrics 
+  * ```https://taylor-swift-1.onrender.com/api/v1/quote/all```
+ 
 
 ## Contribution
 
