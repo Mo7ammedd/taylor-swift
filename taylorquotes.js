@@ -1457,7 +1457,7 @@ const allQuotes = [
       album: "THE TORTURED POETS DEPARTMENT",
   },
   {
-      quote: "I stoppеd CPR, after all, it's no use The spirit was gonе, we would never come toe",
+      quote: "I stopped CPR, after all, it's no use The spirit was gone, we would never come toe",
       song: "So Long, London",
       album: "THE TORTURED POETS DEPARTMENT",
   },
@@ -1556,7 +1556,7 @@ const allQuotes = [
   },
   {
     quote:
-      "Somеone told me, There's no such thing as bad thoughts Only your actions talk",
+      "Someone told me, There's no such thing as bad thoughts Only your actions talk",
     song: "Guilty as Sin?",
     album: "THE TORTURED POETS DEPARTMENT",
   },
@@ -1568,23 +1568,23 @@ const allQuotes = [
   {
     quote:
       "If you wanted me dead, you should've just said Nothing makes me feel more alive",
-    song: "Who’s Afraid of Little Old Me?",
+    song: "Who's Afraid of Little Old Me?",
     album: "THE TORTURED POETS DEPARTMENT",
   },
   {
     quote: "You don't get to tell me about sad",
-    song: "Who’s Afraid of Little Old Me?",
+    song: "Who's Afraid of Little Old Me?",
     album: "THE TORTURED POETS DEPARTMENT",
   },
   {
     quote:
       "I'm always drunk on my own tears, isn't that what they all said?",
-    song: "Who’s Afraid of Little Old Me?",
+    song: "Who's Afraid of Little Old Me?",
     album: "THE TORTURED POETS DEPARTMENT",
   },
   {
     quote: "I am what I am 'cause you trained me",
-    song: "Who’s Afraid of Little Old Me?",
+    song: "Who's Afraid of Little Old Me?",
     album: "THE TORTURED POETS DEPARTMENT",
   },
   {
@@ -1636,7 +1636,7 @@ const allQuotes = [
     song: "I Can Do It With A Broken Heart",
     album: "THE TORTURED POETS DEPARTMENT",
   }, {
-    quote: "Breaking down, I hit the floor All the piеces of me shatterеd as the crowd was chanting, MORE",
+    quote: "Breaking down, I hit the floor All the pieces of me shattered as the crowd was chanting, MORE",
     song: "I Can Do It With A Broken Heart",
     album: "THE TORTURED POETS DEPARTMENT",
   }, {
@@ -1683,7 +1683,223 @@ const allQuotes = [
     quote: "And I'll forget you, but I'll never forgive The smallest man who ever lived",
     song: "The Smallest Man Who Ever Lived",
     album: "THE TORTURED POETS DEPARTMENT",
+  },{
+    quote: "I haven't come around in so long But I'm coming back so strong",
+    song: "The Alchemy",
+    album: "THE TORTURED POETS DEPARTMENT",
+  },{
+    quote: "Ditch the clowns, get the crown Baby, I'm the one to beat",
+    song: "The Alchemy",
+    album: "THE TORTURED POETS DEPARTMENT",
+  },{
+    quote: "'Cause the sign on your heart Said it's still reserved for me",
+    song: "The Alchemy",
+    album: "THE TORTURED POETS DEPARTMENT",
+  },{
+    quote: "Where's the trophy? He just comes runnin' over to me",
+    song: "The Alchemy",
+    album: "THE TORTURED POETS DEPARTMENT",
+  },{
+    quote: "All your life, did you know You'd be picked like a rose?",
+    song: "Clara Bow",
+    album: "THE TORTURED POETS DEPARTMENT",
+  },{
+    quote: "I'm not trying to exaggerate But I think I might die if it happened to me",
+    song: "Clara Bow",
+    album: "THE TORTURED POETS DEPARTMENT",
+  },{
+    quote: "Promise to be dazzling",
+    song: "Clara Bow",
+    album: "THE TORTURED POETS DEPARTMENT",
+  },{
+    quote: "Beauty is a beast that roars down on all fours Demanding more Only when your girlish glow flickers just so Do they let you know It's hell on earth to be heavenly Them's the breaks, they don't come gently",
+    song: "Clara Bow",
+    album: "THE TORTURED POETS DEPARTMENT",
+  },{
+    quote: "Old habits die screaming",
+    song: "The Black Dog",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "And I may never open up the way I did for you",
+    song: "The Black Dog",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "Six weeks of breathin' clean air I still miss the smoke",
+    song: "The Black Dog",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "You'll find that you were never not mine",
+    song: "imgonnagetyouback",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "I'm an Aston Martin that you steered straight into the ditch",
+    song: "imgonnagetyouback",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "Pick your poison, babe, I'm poison either way",
+    song: "imgonnagetyouback",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "Wise men once said Wild winds are death to the candle",
+    song: "The Albatross",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "Cross your thoughtless heart Only liquor anoints you",
+    song: "The Albatross",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "One less temptress, one less dagger to sharpen",
+    song: "The Albatross",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "Wise men once read fake news And they believed it",
+    song: "The Albatross",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "She's the albatross She is here to destroy you",
+    song: "The Albatross",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "If you wanna break my cold, cold heart Just say, I loved you the way that you were",
+    song: "Chloe or Sam or Sophia or Marcus",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "You needed me, but you needed drugs more",
+    song: "Chloe or Sam or Sophia or Marcus",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "Can we watch our phantoms like watching wild horses?",
+    song: "Chloe or Sam or Sophia or Marcus",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "Come one, come all, it's happenin' again",
+    song: "How Did It End?",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "Lost the game of chance, what are the chances?",
+    song: "How Did It End?",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "Sitting in a tree D-Y-I-N-G",
+    song: "How Did It End?",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "The empathetic hunger descends",
+    song: "How Did It End?",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "But I still don't know How did it end",
+    song: "How Did It End?",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "Tell me 'bout the first time you saw me",
+    song: "So High School",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "Bittersweet sixteen suddenly",
+    song: "So High School",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "Truth, dare, spin bottles You know how to ball, I know Aristotle",
+    song: "So High School",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "Brand-new, full throttle Touch me while your bros play Grand Theft Auto",
+    song: "So High School",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "You knew what you wanted and, boy, you got her",
+    song: "So High School",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "If comfort is a construct, I don't believe in good luck",
+    song: "I Hate It Here",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "I hate it here so I will go to secret gardens in my mind People need a key to get to, the only one is mine",
+    song: "I Hate It Here",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "Nostalgia is a mind's trick",
+    song: "I Hate It Here",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "I hate it here so I will go to lunar valleys in my mind When they found a better planet, only the gentle survived",
+    song: "I Hate It Here",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "I'm lonely, but I'm good I'm bitter, but I swear I'm fine I'll save all my romanticism for my inner life and I'll get lost on purpose",
+    song: "I Hate It Here",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "All that time you were throwin' punches, I was buildin' somethin'",
+    song: "thanK you aIMee",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "But I can't forget the way you made me heal",
+    song: "thanK you aIMee",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "Screamed, fucK you, aIMee to the night sky as the blood was gushin'",
+    song: "thanK you aIMee",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "Everyone knows that my mother is a saintly woman But she used to say she wished that you were dead",
+    song: "thanK you aIMee",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "I pushed each boulder up the hill Your words are still just ringing in my head, ringing in my head",
+    song: "thanK you aIMee",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "And one day, your kid comes home singin' A song that only us two is gonna know is about you",
+    song: "thanK you aIMee",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "I look in people's windows In case you're at their table",
+    song: "I Look in People's Windows",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "What if your eyes looked up and met mine One more time?",
+    song: "I Look in People's Windows",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "So I look in people's windows Like I'm some deranged weirdo I attend Christmas parties from outside",
+    song: "I Look in People's Windows",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "Does it feel alright to not know me? I'm addicted to the if only",
+    song: "I Look in People's Windows",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
   }, {
+    quote: "I got cursed like Eve got bitten",
+    song: "The Prophecy",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "I guess a lesser woman would've lost hope A greater woman wouldn't beg",
+    song: "The Prophecy",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "But I looked to the sky and said Please I've been on my knees Change the prophecy Don't want money Just someone who wants my company Let it once be me Who do I have to speak to About if they can redo the prophecy?",
+    song: "The Prophecy",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "But even statues crumble if they're made to wait",
+    song: "The Prophecy",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "A greater woman stays cool But I howl like a wolf at the moon",
+    song: "The Prophecy",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "I'm so afraid I sealed my fate",
+    song: "The Prophecy",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "Spending my last coin so someone will tell me it'll be okay",
+    song: "The Prophecy",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
     quote: "What happens if it becomes who you are?",
     song: "Cassandra",
     album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
@@ -1780,7 +1996,11 @@ const allQuotes = [
     song: "Robin",
     album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
   }, {
-    quote: "But soon it was over",
+    quote: "You have no room in your dreams for regrets",
+    song: "Robin",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  },{
+    quote: "But now we'll curtail your curiosity In sweetness",
     song: "Robin",
     album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
   }, {
@@ -1789,6 +2009,22 @@ const allQuotes = [
     album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
   }, {
     quote: "I'm not a donor but I'd give you my heart if you needed it",
+    song: "The Manuscript",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  }, {
+    quote: "She thought about how he said since she was so wise beyond her years",
+    song: "The Manuscript",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  }, {
+    quote: "Lookin' backwards might be the only way to move forward",
+    song: "The Manuscript",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  }, {
+    quote: "And at last, she knew what the agony had been for",
+    song: "The Manuscript",
+    album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+  }, {
+    quote: "But the story isn't mine anymore",
     song: "The Manuscript",
     album: "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
   },
