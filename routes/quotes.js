@@ -2,11 +2,6 @@ const express = require('express');
 const Qoute = require('../models/quotesModel');
 const app = express();
 
-// index
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname + '/index.html'));
-});
-
 // Create quote
 app.post('/', async (req, res, next) => {
   const qoute = await Qoute.create(req.body);
