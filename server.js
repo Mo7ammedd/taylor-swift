@@ -1,5 +1,6 @@
 // express app
 const express = require('express');
+const path = require('path');
 const app = express();
 const port = 5000;
 
@@ -19,7 +20,11 @@ app.use(express.static('views'));
 const quotesRouter = require('./routes/quotes');
 
 // Mount Routes
+
 app.use('/api/v1/quote', quotesRouter);
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname + '/index.html'));
+});
 app.all('*', (req, res, next) => {
   res.status(404).json(`Can't find ${req.originalUrl} on this server!`);
 });
