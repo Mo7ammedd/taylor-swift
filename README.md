@@ -14,6 +14,14 @@ I couldn't believe that one of the best songwriters doesn't have a random lyrics
   * From a song : ```https://taylor-swift-1.onrender.com/api/v1/quote/:song```
 * To Get All Taylor Swift lyrics 
   * ```https://taylor-swift-1.onrender.com/api/v1/quote/all```
+* To add taylor swift lyrics to the API:
+  * open postman and use post: ````https://taylor-swift-1.onrender.com/api/v1/quote```
+  * with this format
+  {
+    "quote":"test",
+    "song":"test",
+    "album":"test" 
+  }
  
 
 ## Contribution
