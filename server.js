@@ -2,7 +2,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const cors = require('cors'); 
+const cors = require('cors');
 const port = 5000;
 
 // .env access
@@ -16,6 +16,10 @@ dbConnection();
 // JSON parse
 app.use(express.json());
 app.use(express.static('views'));
+
+// Enable other domains to  access the app
+app.use(cors());
+app.options('*', cors());
 
 // Routes
 const quotesRouter = require('./routes/quotes');
@@ -38,17 +42,3 @@ app.listen(process.env.PORT || port, function () {
     } mode`
   );
 });
-const allowedOrigins = ['http://localhost:3000', 'https://taylor-swift-quotes.onrender.com/','http://127.0.0.1:5500/']; 
-
-const corsOptions = {
-  origin: function (origin, callback) {
-    if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
-    }
-  },
-  optionsSuccessStatus: 200, 
-};
-
-app.use(cors(corsOptions)); 
