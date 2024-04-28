@@ -8,9 +8,9 @@ I couldn't believe that one of the best songwriters doesn't have a random lyrics
 ![](taylor.gif)
 
 ## Usage
-* To Get Random Taylor Swift lyrics```:https://taylor-swift-1.onrender.com/api/v1/quote```
+* To Get Random Taylor Swift lyrics : ```https://taylor-swift-1.onrender.com/api/v1/quote```
 * To Get Random Taylor Swift lyrics from a specific album or song :
-  * From an album : ```https://taylor-swift-1.onrender.com/api/v1/quote/:song```
+  * From an album : ```https://taylor-swift-1.onrender.com/api/v1/quote/:album```
   * From a song : ```https://taylor-swift-1.onrender.com/api/v1/quote/:song```
 * To Get All Taylor Swift lyrics 
   * ```https://taylor-swift-1.onrender.com/api/v1/quote/all```
@@ -19,7 +19,7 @@ I couldn't believe that one of the best songwriters doesn't have a random lyrics
 ## Contribution
 
 * Contribute your favourite taylor lyrics / quotes
-  * Add the lyrics / quotes to `taylorquotes.js`
+  * Add the lyrics / quotes to `quotes.json`
   * While adding a quote, keep album and song fields as none
   * make a pull request
   * no repetitions
