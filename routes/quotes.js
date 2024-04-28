@@ -5,7 +5,7 @@ const app = express();
 
 // index
 app.get('/index', (req, res) => {
-  res.sendFile(path.join(__dirname + './index.html'));
+  res.sendFile(path.join(__dirname + '../index.html'));
 });
 
 // Create quote
