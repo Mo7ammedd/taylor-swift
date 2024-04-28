@@ -1,10 +1,11 @@
 const express = require('express');
+const path = require('path');
 const Qoute = require('../models/quotesModel');
 const app = express();
 
 // index
 app.get('/index', (req, res) => {
-  res.sendFile(path.join(__dirname + '/index.html'));
+  res.sendFile(path.join(__dirname + './index.html'));
 });
 
 // Create quote
@@ -16,7 +17,7 @@ app.post('/', async (req, res, next) => {
 
 // get random lyrics
 app.get('/', async (req, res) => {
-  const qoute = await Qoute.aggregate().sample(1);
+  const qoute = await Qoute.sample(1);
   res.send(qoute);
 });
 
