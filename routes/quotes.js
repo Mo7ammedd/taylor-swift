@@ -23,39 +23,52 @@ app.get('/:song', async (req, res, next) => {
 });
 
 // get all Quotes
-app.get('/all', async (req, res) => {
-  const qoute = await Qoute.find();
-  res.send(qoute);
+app.get('/allson', async (req, res) => {
+  try {
+    const quotes = await Qoute.find(); // This fetches all documents in the Qoute collection
+    res.status(200).send(quotes);
+  } catch (error) {
+    console.error('Error fetching quotes:', error.message);
+    res.status(500).send({ error: 'Failed to fetch quotes' });
+  }
 });
 
 //generate quiz questions 
 app.get('/quiz/question', async (req, res) => {
   try {
-    const randomQuote = await Qoute.aggregate([{ $sample: { size: 1 } }]);
+    const randomQuotes = await Qoute.aggregate([{ $sample: { size: 10 } }]);
 
-    if (randomQuote.length === 0) {
+    if (randomQuotes.length === 0) {
       return res.status(404).send({ error: 'No quotes found' });
     }
 
-    const correctAnswer = randomQuote[0].song; 
-    const question = {
-      question: `${randomQuote[0].quote}`,
-      answers: [
-        correctAnswer, 
-      ...(await getThreeRandomSongs(correctAnswer)), 
-      ],
-    };
+    const questions = await Promise.all(
+      randomQuotes.map(async (randomQuote) => {
+        const correctAnswer = randomQuote.song;
+        const incorrectAnswers = await getThreeRandomSongs(correctAnswer);
 
-    res.send(question);
+        return {
+          question: randomQuote.quote,
+          answers: [correctAnswer, ...incorrectAnswers], 
+        };
+      })
+    );
+
+    res.send(questions);
   } catch (error) {
-    console.error('Error generating quiz question:', error.message, error.stack);
-    res.status(500).send({ error: 'Failed to generate quiz question' });
+    console.error('Error generating quiz questions:', error);
+    res.status(500).send({ error: 'Failed to generate quiz questions' });
   }
 });
 
 async function getThreeRandomSongs(excludeSong) {
-  const songs = await Qoute.distinct('song', { song: { $ne: excludeSong } });
-  return _.sampleSize(songs, 3); 
+  try {
+    const allSongs = await Qoute.distinct('song', { song: { $ne: excludeSong } });
+    return _.sampleSize(allSongs, 3);
+  } catch (error) {
+    console.error('Error fetching distinct songs:', error);
+    throw error;
+  }
 }
 
 module.exports = app;
