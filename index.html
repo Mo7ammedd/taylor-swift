@@ -58,9 +58,6 @@
             text-transform: capitalize;
         }
 
-        #lyrics {
-            /* text-align: center; */
-        }
 
         #fetch {
             color: black;
@@ -134,6 +131,19 @@
                     </a>
                 </li>
             </ul>
+			<ul>
+				<li>
+					GET RANDOM SONGS:
+					<a
+						href="javascript:void(0)"
+						onclick="window.open(`${window.location.href}api/v1/quote/rsong`)"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<span class="current-url"></span>api/v1/quote/rsong
+					</a>
+				</li>
+			</ul>
 
             <li>
                 GET ALL LYRICS MATCHING THE FILTERS:
@@ -253,53 +263,50 @@
 			</div>
 		</div>
 		<script>
-
 			var currentUrl = window.location.href;
 			$("span.current-url").html(currentUrl);
-			
+		  
 			function getQuotesJson() {
-				$.ajax({
-					method: "GET",
-					url: `${location.href}get`
-					dataType: "json",
-					success: onSuccess,
-					error: onError,
-				});
+			  $.ajax({
+				method: "GET",
+				url: "/rsong",
+				dataType: "json",
+				success: onSuccess,
+				error: onError,
+			  });
 			}
-
+		  
 			function onSuccess(jsonReturn) {
-				console.log("success");
-				quoteData = jsonReturn;
-
-				
-
-				var newquote = quoteData.quote;
-				var song = quoteData.song;
-				var album = quoteData.album;
-				$("#lyrics").html(newquote);
-				$("#song").html("- " + song + ", ");
-				$("#album").html(album);
-
-				$("#tweet-quote").attr(
-					"href",
-					"http://www.twitter.com/intent/tweet?text=" +
-						newquote +
-						" -" +
-						song +
-						", " +
-						album
-				);
+			  console.log("success");
+			  var newquote = jsonReturn.quote;
+			  var song = jsonReturn.song;
+			  var album = jsonReturn.album;
+			  $("#lyrics").html(newquote);
+			  $("#song").html("- " + song + ", ");
+			  $("#album").html(album);
+		  
+			  $("#tweet-quote").attr(
+				"href",
+				"http://www.twitter.com/intent/tweet?text=" +
+				  newquote +
+				  " -" +
+				  song +
+				  ", " +
+				  album
+			  );
 			}
-			function onError(jsonReturn) {
-				console.log("error");
+		  
+			function onError(xhr, status, error) {
+			  console.log("error", error);
 			}
-			$("#new-quote").on("click", function () {
-				getQuotesJson();
+		  
+			$("#new-quote").on("click", function() {
+			  getQuotesJson();
 			});
-
-			$("document").ready(function () {
-				getQuotesJson();
+		  
+			$(document).ready(function() {
+			  getQuotesJson();
 			});
-		</script>
+		  </script>
 	</body>
 </html>
