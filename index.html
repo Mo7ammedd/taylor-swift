@@ -1,132 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<script
-			src="https://code.jquery.com/jquery-3.5.1.js"
-			integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-			crossorigin="anonymous"
-		></script>
-		<title>TAYLOR SWIFT API</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"
+    ></script>
+    <title>TAYLOR SWIFT API</title>
+    <style>
+        @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css);
+        @import url(https://fonts.googleapis.com/css?family=Pacifico&display=swap);
 
-		<style>
-			@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css);
-			@import url(https://fonts.googleapis.com/css?family=Pacifico&display=swap);
-			body {
-				font-weight: 600;
-			}
-			.container {
-				margin: auto 15%;
-			}
+        body {
+            font-weight: 600;
+        }
 
-			.content {
-				max-width: 700px;
-				color: #242424;
-				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-					Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-					"Helvetica Neue", sans-serif;
-			}
+        .container {
+            margin: auto 15%;
+        }
 
-			h1,
-			h2,
-			h3 {
-				font-weight: 600;
-				padding-bottom: 0.3em;
-				border-bottom: 1px solid #eaecef;
-			}
-			li {
-				padding-bottom: 0.5em;
-				font-weight: 600;
-			}
-			li > span {
-				text-decoration: underline;
-				color: black;
-				font-weight: 600;
-				/* color: rgb(67, 124, 230); */
-			}
-			a {
-				text-decoration: underline;
-				/* color: rgb(67, 124, 230); */
-				font-style: italic;
-				color: black;
-			}
-			.capitalize {
-				text-transform: capitalize;
-				/* text-align: center; */
-			}
-			#lyrics {
-				/* text-align: center; */
-			}
-			#fetch {
-				color: black;
-				font-weight: bold;
-				font-size: larger;
-				/* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-				/* font-family:Verdana, Geneva, Tahoma, sans-serif; */
-				font-family: "Pacifico", cursive;
-				font-style: italic;
-			}
-			#quotes {
-				font-size: xx-large;
-			}
-			button {
-				border: none;
-				background: #fff;
-				cursor: pointer;
-			}
-			button > i,
-			#tweet-quote {
-				color: red;
-			}
-		</style>
-	</head>
+        .content {
+            max-width: 700px;
+            color: #242424;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+                "Helvetica Neue", sans-serif;
+        }
 
-	<body>
-		<div class="container">
-			<div class="content">
-				<h1>
-					<img src="https://i.imgur.com/nVjpIKO.jpg" height="60px" />
-					TAYLOR SWIFT API
-				</h1>
-				<p>Open Source API for Taylor Swift lyrics</p>
-				<h2>API End-Points</h2>
-				<ul>
-					<li>
-						GET RANDOM LYRICS:
-						<a
-							href="javascript:void(0)"
-							onclick="window.open(`${window.location.href}api/v1/quote`)"
-							target="_blank"
-							rel="noopener"
-							rel="noreferrer"
-							><span class="current-url"></span>api/v1/quote</a
-						>
-					</li>
-					QUERY PARAMETERS:
-					<ul>
-						<li>
-							GET RANDOM LYRICS FROM AN ALBUM:
-							<a
-								href="javascript:void(0)"
-								onclick="window.open(`${window.location.href}api/v1/quote/red`)"
-								><span class="current-url"></span>api/v1/quote/:album</a
-							>
-						</li>
-						<li>
-							GET RANDOM LYRICS FROM A SONG:
-							<a
-								href="javascript:void(0)"
-								onclick="window.open(`${window.location.href}api/v1/quote/style`)"
-								><span class="current-url"></span>api/v1/quote/:song</a
-							>
-						</li>
-					</ul>
+        h1,
+        h2,
+        h3 {
+            font-weight: 600;
+            padding-bottom: 0.3em;
+            border-bottom: 1px solid #eaecef;
+        }
 
-					<li>
-						GET ALL LYRICS MATCHING THE FILTERS:
-						<ul>
-							<li>
+        li {
+            padding-bottom: 0.5em;
+            font-weight: 600;
+        }
+
+        li > span {
+            text-decoration: underline;
+            color: black;
+            font-weight: 600;
+        }
+
+        a {
+            text-decoration: underline;
+            font-style: italic;
+            color: black;
+        }
+
+        .capitalize {
+            text-transform: capitalize;
+        }
+
+        #lyrics {
+            /* text-align: center; */
+        }
+
+        #fetch {
+            color: black;
+            font-weight: bold;
+            font-size: larger;
+            font-family: "Pacifico", cursive;
+            font-style: italic;
+        }
+
+        #quotes {
+            font-size: xx-large;
+        }
+
+        button {
+            border: none;
+            background: #fff;
+            cursor: pointer;
+        }
+
+        button > i,
+        #tweet-quote {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <div class="content">
+        <h1>
+            <img src="https://i.imgur.com/nVjpIKO.jpg" height="60px" alt="Taylor Swift">
+            TAYLOR SWIFT API
+        </h1>
+        <p>Open Source API for Taylor Swift lyrics</p>
+
+        <h2>API End-Points</h2>
+        <ul>
+            <li>
+                GET RANDOM LYRICS:
+                <a
+                    href="javascript:void(0)"
+                    onclick="window.open(`${window.location.href}api/v1/quote`)"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <span class="current-url"></span>api/v1/quote
+                </a>
+            </li>
+            <li>QUERY PARAMETERS:</li>
+            <ul>
+                <li>
+                    GET RANDOM LYRICS FROM AN ALBUM:
+                    <a
+                        href="javascript:void(0)"
+                        onclick="window.open(`${window.location.href}api/v1/quote/red`)"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <span class="current-url"></span>api/v1/quote/:album
+                    </a>
+                </li>
+                <li>
+                    GET RANDOM LYRICS FROM A SONG:
+                    <a
+                        href="javascript:void(0)"
+                        onclick="window.open(`${window.location.href}api/v1/quote/style`)"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <span class="current-url"></span>api/v1/quote/:song
+                    </a>
+                </li>
+            </ul>
+
+            <li>
+                GET ALL LYRICS MATCHING THE FILTERS:
+                <ul>
+                    <li>
+                        FILTER BY SONG:
+                        <a
+                            href="javascript:void(0)"
+                            onclick="window.open(`${window.location.href}get-all?song=lover`)"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <span class="current-url"></span>get-all?song=&lt;song&gt;
+                        </a>
+                    </li>
+                    <li>
 								FILTER BY SONG: <a
 									href="javascript:void(0)"
 									onclick="window.open(`${window.location.href}get-all?song=lover`)"
@@ -143,20 +166,12 @@
 						</ul>
 					</li>
 					<li>
-						GET RANDOM SONG :
-						<a
-							href="javascript:void(0)"
-							onclick="window.open(`${window.location.href}/api/v1/rsong)"
-							><span class="current-url"></span>/api/v1/rsong</a
-						>
-					</li>
-					<li>
 						add taylor swift lyrics to the API:
 						<ul>
 							<li>
 								open postman and use post: <a
 									href="javascript:void(0)"
-									onclick="window.open(`${window.location.href}api/v1/quote`)"
+									onclick="window.open(window.location.href + 'api/v1/quote')"
 									><span class="current-url"></span>api/v1/quote</a
 									
 								>
@@ -178,7 +193,7 @@
 							<li>
 								 <a
 									href="javascript:void(0)"
-									onclick="window.open(`${window.location.href}api/v1/quote/quiz/question`)"
+									onclick="window.open(window.location.href + 'api/v1/quote/quiz/question')"
 									><span class="current-url"></span>api/v1/quote/quiz/question</a
 									
 								>
@@ -245,8 +260,8 @@
 			function getQuotesJson() {
 				$.ajax({
 					method: "GET",
-					url: `${location.href}get`,
-					dataType: "json",
+					url: `${location.href}get`
+					dataType : "json",
 					success: onSuccess,
 					error: onError,
 				});

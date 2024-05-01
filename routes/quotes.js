@@ -72,7 +72,10 @@ async function getThreeRandomSongs(excludeSong) {
 }
 
 app.get('/rsong', async (req, res) => {
-  const randomSong = await Qoute.aggregate([{ $group: { id: "$song" } }, { $sample: { size: 1 } }]);
+  const randomSong = await Qoute.aggregate([
+    { $group: { _id: "$song", }  },
+    { $sample: { size: 1 } }
+  ]);
   res.send(randomSong);
 });
 
