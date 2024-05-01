@@ -17,10 +17,10 @@ app.get('/', async (req, res) => {
 });
 
 // get all lyrics of specific song
-app.get('/:song', async (req, res, next) => {
-  const qoutes = await Qoute.find({ song: new RegExp(req.params.song, 'i') });
-  res.send(qoutes);
-});
+// app.get('/:song', async (req, res, next) => {
+//   const qoutes = await Qoute.find({ song: new RegExp(req.params.song, 'i') });
+//   res.send(qoutes);
+// });
 
 // get all Quotes
 app.get('/allson', async (req, res) => {
@@ -70,5 +70,10 @@ async function getThreeRandomSongs(excludeSong) {
     throw error;
   }
 }
+
+app.get('/rsong', async (req, res) => {
+  const randomSong = await Qoute.aggregate([{ $group: { id: "$song" } }, { $sample: { size: 1 } }]);
+  res.send(randomSong);
+});
 
 module.exports = app;
