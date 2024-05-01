@@ -76,7 +76,7 @@ app.get('/rsong', async (req, res) => {
     { $group: { _id: "$song", }  },
     { $sample: { size: 1 } }
   ]);
-  res.send(randomSong);
+  res.json(randomSong[0]); 
 });
 
 module.exports = app;
