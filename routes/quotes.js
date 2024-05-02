@@ -16,11 +16,11 @@ app.get('/', async (req, res) => {
   res.send(qoute);
 });
 
-// get all lyrics of specific song
-// app.get('/:song', async (req, res, next) => {
-//   const qoutes = await Qoute.find({ song: new RegExp(req.params.song, 'i') });
-//   res.send(qoutes);
-// });
+//get all lyrics of specific song
+app.get('/:song', async (req, res, next) => {
+  const qoutes = await Qoute.find({ song: new RegExp(req.params.song, 'i') });
+  res.send(qoutes);
+});
 
 // get all Quotes
 app.get('/allson', async (req, res) => {
@@ -70,7 +70,7 @@ async function getThreeRandomSongs(excludeSong) {
     throw error;
   }
 }
-
+//get random song
 app.get('/rsong', async (req, res) => {
   const randomSong = await Qoute.aggregate([
     { $group: { _id: "$song", }  },
@@ -79,4 +79,15 @@ app.get('/rsong', async (req, res) => {
   res.json(randomSong[0]); 
 });
 
+//delete all quotes by song
+app.delete('/song/:song', async (req, res) => {
+  try {
+    const song = req.params.song;
+    await Qoute.deleteMany({ song: song });
+    res.status(200).send({ message: `All quotes for song '${song}' deleted successfully` });
+  } catch (error) {
+    console.error('Error deleting quotes:', error.message);
+    res.status(500).send({ error: `Failed to delete quotes: ${error.message}` });
+  }
+});
 module.exports = app;
