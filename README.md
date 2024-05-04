@@ -3,10 +3,6 @@
 I couldn't believe that one of the best songwriters doesn't have a random lyrics generator api so I made one.
 
 
-
-
-![](taylor.gif)
-
 ## Usage
 * To Get Random Taylor Swift lyrics : ```https://taylor-swift-1.onrender.com/api/v1/quote```
 * To Get Random Taylor Swift lyrics from a specific album or song :
